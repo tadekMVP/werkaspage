@@ -67,6 +67,10 @@ p.lead {
     &:hover {
       background-color: $primary;
     }
+    img{
+      height: 75%;
+      width: 75%;
+    }
   }
 }
 

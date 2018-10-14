@@ -72,7 +72,12 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #006A3C;
+}
+
+.social-icons a img {
+  height: 75%;
+  width: 75%;
 }
 
 .dev-icons {
@@ -80,7 +85,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #006A3C;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +95,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #00b767;
 }
 
 @media (min-width: 992px) {
@@ -109,6 +114,14 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+  #sideNav .logo-container {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+  #sideNav .logo-container img {
+    width: 75%;
+  }
   #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,6 +133,31 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-brand .profile-photo {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: #00512e;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #sideNav .navbar-brand .profile-photo .photo {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-position: 35% 40%;
+    background-size: 215%;
+    background-repeat: no-repeat;
+    background-image: url("../img/profile.jpg");
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -176,17 +214,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #006A3C !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #006A3C !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #006A3C;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #001e11;
 }
